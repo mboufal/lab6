@@ -1,8 +1,25 @@
-#main-navbar{
+nav#main-navbar{
 	background-color: blue;
-	overflow: hidden;
-	
 }
+
+nav#main-navbar ul{
+	list-style-type: none;
+	margins: 0;
+	paddings: 0;
+	overflow: hidden;
+}
+nav#main-navbar ul li {
+	float: left;
+	margin 0 15px;
+}
+
+nav#main-navbar ul li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;	
+}
+
 #navbar-container{
 	width: 100%;
 	float: left;
@@ -23,10 +40,16 @@
 
 #sidebar-container{
 	text-align: center;
-	list-style-type: none;
+	
 }
 
 #sidebar ul{
-	
+	list-style-type: none;
 	
 }
+
+#sidebar ul li{
+	background-color: #000;
+}
+
+#sidebar ul li a {}
