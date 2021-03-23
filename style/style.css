@@ -4,13 +4,13 @@ nav#main-navbar{
 
 nav#main-navbar ul{
 	list-style-type: none;
-	margins: 0;
-	paddings: 0;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
 }
 nav#main-navbar ul li {
 	float: left;
-	margin 0 15px;
+	margin: 0 15px;
 }
 
 nav#main-navbar ul li a{
@@ -32,7 +32,7 @@ nav#main-navbar ul li a{
 
 #sidebar{
 	position: fixed;
-	right: 0%
+	right: 0%;
 	height: 100%;
 	width: 20%;
 	background-color: red;
