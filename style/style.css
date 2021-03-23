@@ -1,8 +1,7 @@
-nav#main-navbar{
-	background-color: blue;
-}
+
 
 nav#main-navbar ul{
+	background-color: blue;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -10,7 +9,6 @@ nav#main-navbar ul{
 }
 nav#main-navbar ul li {
 	float: left;
-	margin: 0 15px;
 }
 
 nav#main-navbar ul li a{
@@ -18,6 +16,10 @@ nav#main-navbar ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 10px 20px;	
+	text-decoration: underline overline;
+}
+nav#main-navbar ul li a:hover{
+	background-color: #000;
 }
 
 #navbar-container{
@@ -27,7 +29,7 @@ nav#main-navbar ul li a{
 }
 
 #onpage{
-	text-decoration: underline overline;
+	
 }
 
 #sidebar{
@@ -44,12 +46,12 @@ nav#main-navbar ul li a{
 }
 
 #sidebar ul{
-	list-style-type: none;
+	
 	
 }
 
 #sidebar ul li{
-	background-color: #000;
+	
 }
 
 #sidebar ul li a {}
