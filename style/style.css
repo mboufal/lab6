@@ -1,0 +1,32 @@
+#main-navbar{
+	background-color: blue;
+	overflow: hidden;
+	
+}
+#navbar-container{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+#onpage{
+	text-decoration: underline overline;
+}
+
+#sidebar{
+	position: fixed;
+	right: 0%
+	height: 100%;
+	width: 20%;
+	background-color: red;
+}
+
+#sidebar-container{
+	text-align: center;
+	list-style-type: none;
+}
+
+#sidebar ul{
+	
+	
+}
