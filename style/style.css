@@ -55,7 +55,7 @@ div#sidebar{
 div#sidebar ul{
 	list-style-type: none;
 	text-align: center;	
-	padding: 0;
+	padding: 15px 0;
 }
 
 div#sidebar ul li a {
