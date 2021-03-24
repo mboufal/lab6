@@ -1,17 +1,25 @@
 
 nav#main-navbar{
-	position: relative;
-}
-nav#main-navbar ul{
+	width:100%;
+	overflow: hidden;
 	background-color: blue;
+}
+div#navbar-container{
+	float: left;
+	position: relative;
+	left:50%;
+}
+
+nav#main-navbar ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	
+	right: 50%;
 }
 nav#main-navbar ul li {
+	display: block;
 	float: left;
+	position: relative;
 }
 
 nav#main-navbar ul li a{
@@ -29,7 +37,6 @@ nav#main-navbar ul li a:hover{
 #navbar-container{
 	float: left;
 	position: relative;
-	width: 100%;
 }
 
 #onpage{
@@ -44,12 +51,10 @@ div#sidebar{
 	background-color: red;
 }
 
-div#sidebar-container{
-	text-align: center;	
-}
 
 div#sidebar ul{
 	list-style-type: none;
+	text-align: center;	
 	margin: 0;
 	padding: 0;
 }
@@ -60,7 +65,6 @@ div#sidebar ul li{
 
 div#sidebar ul li a {
 	display: block;
-	background-color:red;
 	color: #fff;
 	padding: 15 px 0;
 }
