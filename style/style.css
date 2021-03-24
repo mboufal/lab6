@@ -61,8 +61,8 @@ div#sidebar ul{
 div#sidebar ul li a {
 	display: block;
 	color: #fff;
-	padding: 15px 0;
 	text-decoration:none;
+	padding: 15px;
 }
 div#sidebar ul li a:hover{
 	background-color: #000;
